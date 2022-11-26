@@ -1,4 +1,4 @@
-package modulos.homework.att1;
+package atividadeExtra.homework.att1;
 
 public class Cachorro extends Animal{
     private String raca;

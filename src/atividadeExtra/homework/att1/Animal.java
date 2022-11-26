@@ -1,20 +1,16 @@
-package modulos.homework.att1;
+package atividadeExtra.homework.att1;
 
 public class Animal {
     //Variáveis privadas
     private String nome;
     private double peso;
 
-    //Variáveis animal deixando público
+    //Construtor - Variáveis animal deixando público
     public Animal (String nome, double peso) {
         this.nome = nome;
         this.peso = peso;
     }
-
-    //Constructor - Declara o valor padrão das variáveis
     public Animal() {
-        this.nome = null;
-        this.peso = 0;
     }
 
     //Get - Set | Nome Animal
